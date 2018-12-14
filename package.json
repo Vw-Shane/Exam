@@ -1,0 +1,23 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "Big update 3/25 mongodb added filled with placeholder data  shopping cart logic started with plus an minus only working with item already selected ie when item clicked it gets added to array if that item is not in the array the minus doesnt affect anything",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vw-Shane/Exam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vw-Shane/Exam/issues"
+  },
+  "homepage": "https://github.com/Vw-Shane/Exam#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
