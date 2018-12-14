@@ -1,10 +1,17 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var app = express();
+// var mongoose = require("mongoose");
+
 
 
 const PORT = process.env.PORT || 3000;
 app.use(express.static(__dirname + "/public"));
+
+// mongoose.Promise = Promise;
+// mongoose.connect("mongodb://localhost:27017/test5");
+
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
