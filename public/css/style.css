@@ -1,27 +1,40 @@
 @media only screen and (min-width: 568px) {
     /*iphone 5*/
-
-    .row{
+     .row{
     	height: 25%;
+    }
+    #header{
+    	text-align: center;
     }
     #gradeLevel{
     	text-align: center;
     	width: 100%;
     	height:100%;
-    	margin: 0 auto;
+    	margin: 0;
+    }
+    #testAll{
+
+    	margin-left: 75px;
+    }
+    #testAllButton{
+		text-align: center;
+    	width: 225px;
+    	margin: 0 15%;
     }
 
     #mainContainer {
-        width: 75%;
-        margin: auto;
+   
+ 	margin-top: 5%;
+     width:95%;
+    background-color: #47A8BD;
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 600px;
+   
+}
 
-        background-color: #47A8BD;
-        border: 4px solid #B0E0E6;
-        border-radius: 5px;
-        color: #FFFFFF;
-        font-weight: bold;
-        height: 300px;
-    }
 }
 
 
@@ -30,23 +43,35 @@
     .row{
     	height: 25%;
     }
+    #header{
+    	text-align: center;
+    }
     #gradeLevel{
     	text-align: center;
     	width: 100%;
     	height:100%;
-    	margin: 0 auto;
+    	margin: 0;
+    }
+    #testAll{
+
+    	margin-left: 75px;
+    }
+    #testAllButton{
+		text-align: center;
+    	width: 225px;
+    	margin: 0 15%;
     }
 
     #mainContainer {
-    width:75%;
-    margin:auto;
-    
+   
+ 	margin-top: 5%;
+     width:95%;
     background-color: #47A8BD;
     border:4px solid #B0E0E6;
     border-radius:5px;
     color: #FFFFFF;
     font-weight: bold;
-    height: 355;
+    height: 600px;
    
 }
 }
@@ -56,70 +81,29 @@
     .row{
     	height: 25%;
     }
-    #gradeLevel{
-    	text-align: center;
-    	width: 100%;
-    	height:100%;
-    	margin: 0 auto;
-    }
-
-    #mainContainer {
-    width:75%;
-    margin:auto;
-    
-    background-color: #47A8BD;
-    border:4px solid #B0E0E6;
-    border-radius:5px;
-    color: #FFFFFF;
-    font-weight: bold;
-    height: 396px;
-   
-}
-}
-
-@media only screen and (min-width: 812px) {
-    /*iphoneX*/
-    #gradeLevel{
-    	
-    	margin: 0 auto;
-    }
-
-  #mainContainer {
-    
-    
-    background-color: black;
-  
-}
-}
-
-@media only screen and (min-width: 1024px) {
-    /* For desktop: */
-    .row{
-    	height: 25%;
-    }
     #header{
     	text-align: center;
     }
     #gradeLevel{
     	text-align: center;
-    	width: 65%;
+    	width: 100%;
     	height:100%;
-    	margin: 0 15%;
+    	margin: 0;
     }
     #testAll{
-    	margin: 0px 33%;
+
+    	margin-left: 130px;
     }
     #testAllButton{
 		text-align: center;
     	width: 225px;
-    	
     	margin: 0 15%;
     }
 
     #mainContainer {
    
  	margin-top: 5%;
-     width:80%;
+     width:95%;
     background-color: #47A8BD;
     border:4px solid #B0E0E6;
     border-radius:5px;
@@ -128,4 +112,80 @@
     height: 600px;
    
 }
+}
+
+@media only screen and (min-width: 812px) {
+    /*iphoneX*/
+    .row {
+        height: 25%;
+    }
+    #header {
+        text-align: center;
+    }
+    #gradeLevel {
+        text-align: center;
+        width: 65%;
+        height: 100%;
+        margin: 0 15%;
+    }
+    #testAll {
+        margin: 0px 33%;
+    }
+    #testAllButton {
+        text-align: center;
+        width: 225px;
+
+        margin: 0 15%;
+    }
+
+    #mainContainer {
+
+        margin-top: 5%;
+        width: 80%;
+        background-color: orange;
+        border: 4px solid #B0E0E6;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-weight: bold;
+        height: 600px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    /* For desktop: */
+    .row {
+        height: 25%;
+    }
+    #header {
+        text-align: center;
+    }
+    #gradeLevel {
+        text-align: center;
+        width: 65%;
+        height: 100%;
+        margin: 0 15%;
+    }
+    #testAll {
+        margin: 0px 33%;
+    }
+    #testAllButton {
+        text-align: center;
+        width: 225px;
+
+        margin: 0 15%;
+    }
+
+    #mainContainer {
+
+        margin-top: 5%;
+        width: 80%;
+        background-color: #47A8BD;
+        border: 4px solid #B0E0E6;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-weight: bold;
+        height: 600px;
+    }
 }
